@@ -206,9 +206,12 @@ PRESIDENT
 
 15) Write a query that displays the employee’s names with the first letter capitalized and all other
 letters lowercase for all employees whose name starts with J, A, or M.
-select ename
+select init(ename)
 from emp
-where ename like 'J%' or ename like 'A%' or ename like 'M%';
+where ename like 'J%' or ename like 'A' or ename like 'M';
+
+Jones
+James
 
 17)
 	select empno, ename, sal, sal+sal*0.15 as newsalary
