@@ -208,7 +208,7 @@ PRESIDENT
 letters lowercase for all employees whose name starts with J, A, or M.
 select init(ename)
 from emp
-where ename like 'J%' or ename like 'A' or ename like 'M';
+where ename like 'J%' or ename like 'A%' or ename like 'M%';
 
 Jones
 James
